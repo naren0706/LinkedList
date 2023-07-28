@@ -83,6 +83,7 @@ namespace LinkedList
         {
             if (this.head == null)
             {
+                Console.WriteLine("nothing to remove");
                 return null;
             }
             this.head = this.head.next;
